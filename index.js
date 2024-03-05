@@ -9,8 +9,6 @@ const min = 1;
 const max = 10;
 
 let answer = Math.floor(Math.random() * max) + min;
-
-
 console.log(answer);
 
 let attempts = 3;
@@ -52,8 +50,6 @@ restartButton.onclick = function () {
     attempts = 3;
 
 
-
-    // Reset hearts
     hearts.forEach(heart => {
         heart.classList.remove('fa-regular');
         heart.classList.add('fa-solid');
@@ -61,15 +57,11 @@ restartButton.onclick = function () {
 
     result.textContent = '';
 
-    // Enable input and buttons
     number.disabled = false;
     guessButton.disabled = false;
 
-    // Clear the input field
     number.value = '';
-
 }
-
 
 
 

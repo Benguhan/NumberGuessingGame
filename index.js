@@ -48,6 +48,7 @@ guessButton.onclick = function () {
 restartButton.onclick = function () {
     answer = Math.floor(Math.random() * max) + min;
     attempts = 3;
+    console.log(answer);
 
 
     hearts.forEach(heart => {

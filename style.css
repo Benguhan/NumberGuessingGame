@@ -55,6 +55,10 @@ body button {
     border-radius: 8px;
     border: none;
     background-color: #979797;
+    cursor: pointer;
+}
+body button:hover {
+    background-color: #d3d3d3;
 }
 
 h5 {
